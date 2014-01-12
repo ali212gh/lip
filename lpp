@@ -1,0 +1,12 @@
+sudo apt-get install git
+git config --global user.name "ali"
+git config --global user.email "alighaffari212@gmail.com"
+ssh-keygen -t rsa -C "alighaffari212@gmail.com"
+# Creates a new ssh key using the provided email
+# Generating public/private rsa key pair.
+# Enter file in which to save the key (/c/Users/you/.ssh/id_rsa): [Press enter
+# Enter passphrase (empty for no passphrase): [Type a passphrase]
+# Enter same passphrase again: [Type passphrase again]# Your identification has been saved in /c/Users/you/.ssh/id_rsa.
+# Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.
+# 01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db alighaffari212@gmail.com
+ssh -T git@github.com
