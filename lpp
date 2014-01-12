@@ -10,3 +10,18 @@ ssh-keygen -t rsa -C "alighaffari212@gmail.com"
 # Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.
 # 01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db alighaffari212@gmail.com
 ssh -T git@github.com
+The authenticity of host 'github.com (207.97.227.239)' can't be established.
+# RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+# Are you sure you want to continue connecting (yes/no)?
+# Hi username! You've successfully authenticated, but GitHub does not
+# provide shell access.
+git clone git://github.com/eagleeyetom/android_packages_apps_Settings.git -b gingerbread
+git branch xda
+git checkout xda
+git status
+git add .
+git add name_of_file
+git rm name_of_file
+git commit -m 'my first commit'
+git push
+git push git@github.com:eagleeyetom/android_packages_apps_Settings.git xda
